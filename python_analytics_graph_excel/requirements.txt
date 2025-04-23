@@ -6,7 +6,7 @@ seaborn==0.12.2
 plotly==5.14.1
 altair
 openpyxl==3.1.2
-scipy>=1.13.0
+scipy==1.13.0
 
 # Streamlit & extras
 streamlit
