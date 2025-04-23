@@ -1,24 +1,31 @@
-df-explorer==0.0.3
-extra-streamlit-components==0.1.56
-importlib-metadata==6.1.0
+# Required core packages
+pandas==1.5.3
+numpy>=1.24.0
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+altair
+openpyxl==3.1.2
+scipy==1.10.1
+
+# Streamlit & extras
+streamlit
+streamlit-extras==0.3.2
+streamlit-card==0.0.4
+streamlit-option-menu==0.3.2
+streamlit-keyup==0.2.0
+
+# Optional or UI features
 Markdown==3.4.3
 markdown-it-py==2.2.0
-markdownlit==0.0.7
 MarkupSafe==2.1.2
-matplotlib==3.7.1
-numerize==0.12
-numpy==1.23.5
-oauthlib==3.2.2
-openpyxl==3.1.2
-pandas==1.5.3
-pipreqs==0.4.13
-plotly==5.14.1
-requests==2.28.2
-requests-oauthlib==1.3.1
-scipy==1.10.1
-seaborn==0.12.2
-streamlit-card==0.0.4
-streamlit-extras==0.3.2
-streamlit-keyup==0.2.0
-streamlit-option-menu==0.3.2
-toml==0.10.2
+extra-streamlit-components==0.1.56
+
+# These are probably not required unless you use them in code
+# df-explorer==0.0.3       ← Commented unless you use it
+# markdownlit==0.0.7       ← Commented unless you use it
+# numerize==0.12           ← Commented unless you use it
+# importlib-metadata==6.1.0 ← Removed; only needed for Python <3.8
+# pipreqs==0.4.13           ← Only needed locally to auto-generate this file
+# toml==0.10.2              ← Typically not needed unless explicitly imported
+# requests, oauthlib       ← Not needed unless you're using APIs
